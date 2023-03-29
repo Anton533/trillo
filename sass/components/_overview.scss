@@ -24,12 +24,35 @@
   }
 
   &__location {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+  }
+
+  &__icon-location {
+    margin-right: 0.5rem;
   }
 
   &__rating {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    margin-left: 3rem;
+    padding: 0rem 2.25rem;
+    align-self: stretch;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     &-average {
+      font-size: 2.25rem;
+      font-weight: 300;
+      margin-bottom: -3px;
     }
     &-count {
+      font-size: 0.8rem;
+      text-transform: uppercase;
     }
   }
 }
